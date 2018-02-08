@@ -10,3 +10,14 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+LearningSelenium3.iml
+.idea
+
+.gradle
+gradle
+settings.gradle
+gradlew
+gradlew.bat
+build.gradle
+out
