@@ -3,7 +3,7 @@ package ru.mycompany.Lesson3;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-public class TestLogin extends TestBaseInternetExplorer { //TestBaseFirefox, TestBaseChrome
+public class TestLogin extends TestBaseFirefoxNightly { //TestBaseFirefox, TestBaseChrome и т.п.
 
     @Test
     public void loginToAdmin() {
