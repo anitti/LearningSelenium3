@@ -17,7 +17,7 @@ public class TestOpenCategoriesMenu extends LoginToAdminHelper {
             driver.findElement(By.cssSelector(locator_cat + ":nth-of-type(" + i + ")")).click();
             Assert.assertTrue(driver.findElement(By.cssSelector("h1")).isDisplayed());
 
-            String locator_subcat = "li [id ^= doc]"; 
+            String locator_subcat = "li [id ^= doc]";
             Integer count_subcat = driver.findElements(By.cssSelector(locator_subcat)).size();
 
             if (count_subcat > 0) {
