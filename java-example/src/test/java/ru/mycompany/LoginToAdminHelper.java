@@ -1,11 +1,8 @@
-package ru.mycompany.Lesson3;
+package ru.mycompany;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 
-public class TestLogin extends TestBaseChrome { //TestBaseFirefox, TestBaseChrome и т.п.
-
-    @Test
+public class LoginToAdminHelper extends TestBase {
     public void loginToAdmin() {
         String username="admin";
         String password="admin";
