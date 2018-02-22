@@ -3,9 +3,9 @@ package ru.mycompany.Lesson4;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import ru.mycompany.LoginToAdminHelper;
+import ru.mycompany.AdminHelper;
 
-public class TestOpenCategoriesMenu extends LoginToAdminHelper {
+public class TestOpenCategoriesMenu extends AdminHelper {
 
     @Test
     public void clickCategoriesMenu() {
