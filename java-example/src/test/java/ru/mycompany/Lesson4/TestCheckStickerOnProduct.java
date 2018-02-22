@@ -21,7 +21,7 @@ public class TestCheckStickerOnProduct extends ShopMainHelper
         sections.add("//div [contains(@id, 'box-latest-products')]");
 
         for (int k = 0; k < sections.size(); k++) {
-            String locator_products=".//li [contains(@class, 'product column shadow hover-light')]";
+            String locator_products=".//li [contains(@class, 'link')]";
             WebElement section = driver.findElement(By.xpath(sections.get(k)));
             Integer count= section.findElements(By.xpath(locator_products)).size();
             System.out.println("Кол-во уток в секции - count = " + count);
