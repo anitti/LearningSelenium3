@@ -21,6 +21,10 @@ public class AdminHelper extends TestBase {
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
     }
 
+    public void openCatalog() {
+        driver.findElement(By.xpath("//span[@class='name'][contains(text(),'Catalog')]")).click();
+    }
+
     public void openZonesUrl() {
         driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
     }

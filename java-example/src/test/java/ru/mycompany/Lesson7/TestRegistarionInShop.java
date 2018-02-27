@@ -5,8 +5,6 @@ import ru.mycompany.CustomerHelper;
 import ru.mycompany.RegistraionInShopHelper;
 import ru.mycompany.ShopMainHelper;
 
-import static ru.mycompany.RandomizeHelper.getRandomString;
-
 public class TestRegistarionInShop extends ShopMainHelper{
 
     @Test
