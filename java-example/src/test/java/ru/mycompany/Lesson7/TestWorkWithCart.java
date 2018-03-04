@@ -1,4 +1,4 @@
-package ru.mycompany.Lesson8;
+package ru.mycompany.Lesson7;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

@@ -1,8 +1,7 @@
-package ru.mycompany.Lesson7;
+package ru.mycompany.Lesson6;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import ru.mycompany.AdminHelper;
 import ru.mycompany.ProductsAdminHelper;
 import ru.mycompany.ProductsInfoHelper;

@@ -1,4 +1,4 @@
-package ru.mycompany.Lesson7;
+package ru.mycompany.Lesson6;
 
 import org.junit.Test;
 import ru.mycompany.CustomerHelper;

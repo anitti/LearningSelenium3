@@ -1,4 +1,4 @@
-package ru.mycompany.Lesson6;
+package ru.mycompany.Lesson5_2;
 
 import org.junit.Assert;
 import org.junit.Test;
